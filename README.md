@@ -4,12 +4,13 @@
 
 ## 動作確認済みバージョン / Verified minecraft versions
 
-- 1.18.1
+- 1.19
+- 1.18.x
 
 ## 依存ライブラリ / Dependencies
 
 - PrettyCrafter  
-  - [NaturalMergeSort](https://github.com/Ai-Akaishi/NaturalMergeSort)
+  - [AiMath](https://github.com/Ai-Akaishi/AiMath)
 
 ## 使い方 / How To Use
 

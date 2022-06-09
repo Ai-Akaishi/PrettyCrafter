@@ -3,6 +3,6 @@
 
 #define storage pretty_crafter:
 #define storage pretty_crafter_recipes:
-#define storage natural_merge_sort:
-#define tag/function #natural_merge_sort:ascend
-#define tag/function #natural_merge_sort:descend
+#define storage math:
+#define tag/function #math:sort/ascend
+#define tag/function #math:sort/descend
