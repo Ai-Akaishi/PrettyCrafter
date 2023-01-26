@@ -51,7 +51,7 @@ function #pretty_crafter:add
 data modify storage pretty_crafter: recipe.items set value [{id:"minecraft:honey_bottle"},{id:"minecraft:apple"}]  
   
 ## 完成品を設定します。個数も指定できます。完成品を複数種類指定したい場合はリストで設定します。  
-data modify storage pretty_crafter: recipe.result set value {id:"minecraft:potion",tag:{display:{Name:'{"text":"蜂蜜りんごジュース","italic":false,"color":"aqua"}'},CustomPotionColor:16766720,CustomPotionEffects:[{Id:23b,Amplifier:5b,Duration:1,ShowParticles:true}]}}  
+data modify storage pretty_crafter: recipe.result set value {id:"minecraft:potion",tag:{display:{Name:'{"text":"蜂蜜りんごジュース","italic":false,"color":"aqua"}'},CustomPotionColor:16766720,CustomPotionEffects:[{Id:23,Amplifier:5b,Duration:1,ShowParticles:true}]}}  
   
 ## レシピのカテゴリを指定します。好きな書き方でOKです。レシピ削除時に使います。  
 data modify storage pretty_crafter: recipe.category set value {Name:"MyRecipe",Type:"Juice"}  

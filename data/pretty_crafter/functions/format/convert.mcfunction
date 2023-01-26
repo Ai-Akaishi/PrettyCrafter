@@ -1,3 +1,5 @@
+#> pretty_crafter:format/convert
+# 
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
@@ -7,4 +9,4 @@ data modify storage pretty_crafter: recipe.items set value {}
 data modify storage pretty_crafter: recipe.items.0.0 set from storage pretty_crafter: _
 
 ## 一時データリセット
-data remove storage pretty_crafter: _
+data modify storage pretty_crafter: _ set value 1b

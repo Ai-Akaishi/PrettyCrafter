@@ -15,7 +15,7 @@ execute if data storage pretty_crafter: {_:false} run tellraw @s {"translate":"�
 data modify storage pretty_crafter: validation.count set from storage pretty_crafter: _
 
 ## 不定形レシピで１個だけの場合は定型レシピとして変換する
-execute if data storage pretty_crafter: recipe.items[0] unless data storage pretty_crafter: recipe.items[1] run function pretty_crafter:format/convert
+execute if data storage pretty_crafter: {_:true} if data storage pretty_crafter: recipe.items[0] unless data storage pretty_crafter: recipe.items[1] run function pretty_crafter:format/convert
 
 ## 素材がタグだったら定型、タグじゃなかったら不定形
 execute if data storage pretty_crafter: {_:true} if data storage pretty_crafter: recipe.items{} run data modify storage pretty_crafter: validation.type set value "shaped"
