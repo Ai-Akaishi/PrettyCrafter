@@ -1,10 +1,12 @@
 # PrettyCrafter
+
 (Minecraft 1.18+)A library datapack that makes it very easy to manage custom recipes.  
 とても簡単にカスタムレシピを管理できるライブラリデータパック。
 
 ## 動作確認済みバージョン / Verified minecraft versions
 
-- 1.19
+- 1.20.x
+- 1.19.x
 - 1.18.x
 
 ## 依存ライブラリ / Dependencies

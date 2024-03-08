@@ -19,6 +19,7 @@ data modify storage pretty_crafter: __.recipe_candidates set from storage pretty
 ## レシピが読み込まれていれば既に追加されているか確認
 data remove storage pretty_crafter: found
 execute if data storage pretty_crafter: recipe_candidates[0] run function pretty_crafter:find/shaped/check
+
 ## 退避したデータを戻す
 data modify storage pretty_crafter: recipe_candidates set from storage pretty_crafter: __.recipe_candidates
 data remove storage pretty_crafter: __
